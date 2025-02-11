@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+}
+img{
+    border-radius: 18px;
+    border: none;
+    box-shadow: 10px 10px 10px black;
+    margin: 15px;
+}
+button{
+    margin-left: 150px;
+    border: none;
+    border-radius: 18px;
+    color:  hsl(158, 38%, 6%)
+}
+

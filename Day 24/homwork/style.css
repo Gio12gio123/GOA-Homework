@@ -1,0 +1,35 @@
+.h1{
+    color: aquamarine;
+ background-color: azure;
+}
+
+.btn{
+    font-size:60px;
+}
+
+.p{
+    background-color: burlywood;
+}
+
+
+.h2{
+    background-color: rgb(48, 77, 77);
+}
+
+.h3{
+    color: bisque;
+    background-color: black;
+}
+
+.h4{
+    font-size: 80px;
+}
+
+.h5{
+    background-color: brown;
+}
+
+
+.h6{
+    background-color: blueviolet;
+}

@@ -1,0 +1,25 @@
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    animation-name: move;
+    animation-duration: 5s;
+  }
+  
+ 
+  @keyframes move {
+ 
+
+   
+
+    0%{
+        transform: rotate(20deg)
+    }
+
+    10%{
+        transform: translateX(100px);
+    }
+
+}

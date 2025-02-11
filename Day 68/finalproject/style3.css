@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 100px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(128, 107, 80);
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+
+p{
+   
+    font-size: 24px;
+    font-family: fantasy;
+    color: aliceblue;
+    align-self:center;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+
+
+  nav{
+    background-color: rgb(128, 107, 80);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+    animation-name: name;
+    animation-duration: 1s ;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+  }
+
+  nav:hover{
+    background-color: rgb(69, 46, 16);
+    transition: background-color 0.3s ease;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+
+  }
+
+  @keyframes name{
+    0%{
+       
+        transform: rotateX(0);
+    }
+
+    50%{
+        text-decoration: overline;
+        
+    }
+
+    100%{
+    text-overflow: inherit;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        flex-direction: column;
+        gap: 10px;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        justify-content: center;
+    }
+    nav a{
+        margin: 0;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+
+        
+        
+    }
+}
+
+.skills li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+    animation-name: skills;
+    animation-duration: 1s ;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes skills{
+    0%{
+        transform: translateY(0);
+        opacity: 1;
+
+    }
+
+    50%{
+        transform: translateY(-10px);
+        opacity: 0.5;
+        
+    }
+
+    100%{
+    transform: translateY(0);
+    opacity: 1;
+
+  }
+
+}
+

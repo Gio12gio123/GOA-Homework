@@ -1,0 +1,58 @@
+main{
+    height: 1000px;
+    width: 1000px;
+    display: inline-block;
+}
+
+.div{
+    margin-top: 150px;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(239, 199, 149);
+    border-radius: 5%;
+}
+
+img{
+   
+    height: 300px;
+    width: 500px;
+    border-radius: 5%;
+}
+
+
+
+div{
+    height: 600px;
+    width: 500px;
+    background-color: azure;
+    border-radius: 5%;
+    
+
+}
+
+
+h1{
+    color: rgb(67, 69, 69);
+}
+
+p{
+ color: lightgray;
+}
+
+
+
+button{
+    color: lightgray;
+    border-radius: 5%;
+    height: 100px;
+    width: 500px;
+}
+
+.btn{
+    color: blueviolet;
+}
+
+h6{
+    color: blueviolet;
+}
+

@@ -1,0 +1,8 @@
+li{
+    list-style-type: disc;
+    list-style-image: url( https://www.sololearn.com/images/bullet.jpg);
+    list-style-position: inside;
+    font-size: 60px;
+    color: rgb(53, 190, 190);
+    
+}

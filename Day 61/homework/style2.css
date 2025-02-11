@@ -1,0 +1,63 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: transform 0.5s ease, background-color 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+    border: 3px solid transparent;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
+.red:hover {
+    transform: rotate(45deg); 
+    background-color: darkred; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    border-radius: 20%; 
+}
+
+.blue:hover {
+    transform: scale(1.5); 
+    background-color: darkblue; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    border-radius: 20%;
+}
+
+.green:hover {
+    transform: translateX(100px); 
+    background-color: darkgreen; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    border-color: white; 
+    border-radius: 20%; 
+}
+.yellow:hover {
+    transform: skewY(20deg); 
+    background-color: goldenrod; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    border-color: white; 
+    border-radius: 20%;  
+}   

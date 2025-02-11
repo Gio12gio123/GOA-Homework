@@ -1,0 +1,33 @@
+body{
+    background: fixed;
+    background-image: -moz-element();
+    background-color: blanchedalmond;
+}
+
+h1{
+    color: rgb(44, 43, 43);
+    background-color: burlywood;
+    font-size: 60px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    font-size: medium;
+}
+
+
+button{
+    
+
+    margin-left: 550px;
+    border: none;
+    border-radius: 19px;
+    color:  hsla(221, 30%, 45%, 0.805);
+}
+
+button:hover{
+    background-color: rgba(188, 140, 201, 0.795)
+}
+
+

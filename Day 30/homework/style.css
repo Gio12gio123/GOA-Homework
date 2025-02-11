@@ -1,0 +1,27 @@
+
+body{
+    background-color: bisque;
+}
+
+h1{
+    font-size: 64px;
+    font-weight: bold;
+    font-style: italic;
+    font: 1em sans-serif;
+    color: rgb(156, 61, 44);
+    text-transform: uppercase;
+
+}
+
+
+img{
+    border-radius: 18px;
+    border: none;
+    box-shadow: 10px 10px 10px black;
+    margin: 15px;
+}
+
+
+img{
+    margin-left: 130px;
+}

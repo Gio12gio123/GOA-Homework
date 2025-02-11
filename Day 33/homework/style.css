@@ -1,0 +1,30 @@
+body{
+background-color: rgb(253, 220, 179);
+}
+
+div{
+    height: 750px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 100px;
+    border-radius: 5%;
+    text-transform: uppercase;
+}
+
+
+button{
+   
+
+        border: none;
+        border-radius: 18px;
+        color:  hsl(158, 37%, 40%);
+    
+}
+
+
+button:hover{
+    background-color: rgb(172, 77, 77)
+}

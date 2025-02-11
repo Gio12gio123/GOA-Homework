@@ -1,0 +1,40 @@
+.container {
+    display: -ms-grid;
+    display: grid; 
+}
+
+
+.container1 {
+    display: -ms-flexbox; 
+    display: flex; 
+}
+
+.element {
+    -ms-transition: all 0.3s ease; 
+    transition: all 0.3s ease; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.box1 {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+}
+
+.box2 {
+    background: linear-gradient(to top, #6a11cb, #2575fc); 
+}
+
+.box3 {
+    background: linear-gradient(to left, #00c6ff, #0072ff);
+}

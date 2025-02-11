@@ -1,0 +1,50 @@
+.h1{
+    color: rgb(0, 0, 0);
+    background-color: chartreuse;
+
+}
+
+.h2{
+    color: rgb(39, 29, 10);
+}
+
+.h3{
+    color: rgb(30, 60, 36);
+}
+
+.h4{
+    background-color: rgb(135, 142, 222);
+}
+
+.h5{
+    color: rgb(77, 54, 27);
+}
+
+.h6{
+    color: rgb(56, 56, 3);
+}
+
+.button{
+    margin-left: 150px;
+    border: none;
+    border-radius: 18px;
+    color:  hsl(188, 44%, 20%);
+}
+
+.button:hover{
+    background-color: rgb(41, 106, 172)
+}
+
+
+.button{
+    width: 100px;
+    height: 100px;
+    background: rgb(46, 138, 38);
+    transition: width 2s;
+}
+
+
+.p{
+    background-color: rgb(57, 57, 90);
+}
+

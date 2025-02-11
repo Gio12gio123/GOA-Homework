@@ -1,0 +1,52 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: transform 0.5s ease; 
+}
+
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
+
+.red:hover {
+    transform: rotate(45deg); 
+}
+
+.blue:hover {
+    transform: scale(1.5); 
+}
+
+.green:hover {
+    transform: translateX(100px); 
+}
+
+.yellow:hover {
+    transform: skewY(20deg); 
+
+}

@@ -1,0 +1,27 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+.transformable {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+.transformable:hover {
+    transform: scale(1.2); 
+}
+
+.transformable:hover {
+    transform: scale(1.2) rotate(15deg);
+}

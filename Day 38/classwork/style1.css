@@ -1,0 +1,21 @@
+a{
+    border: none;
+    border-radius: 18px;
+    color:  hsl(158, 36%, 37%);
+}
+
+a{
+    background-color: aqua
+}
+
+a{
+    width: 100px;
+    height: 60px;
+    background: whitesmoke;
+    transition: width 2s;
+}
+
+a{
+    background-color: aqua
+}
+

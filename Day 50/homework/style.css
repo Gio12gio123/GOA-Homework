@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    background-color: aqua;
+    border: none;
+    outline: none;
+}
+
+.btn{
+
+    border: none;
+    border-radius: 18px;
+    color:  hsl(158, 36%, 37%);
+}
+
+.btn:hover{
+    background-color: aqua
+}
+
+
+.btn{
+    width: 100px;
+    height: 60px;
+    background: whitesmoke;
+    transition: width 2s;
+}
+
