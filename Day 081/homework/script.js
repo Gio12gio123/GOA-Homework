@@ -18,3 +18,11 @@ function compareNames() {
     let num1 = parseFloat(document.getElementById("num1").value);
     let num2 = parseFloat(document.getElementById("num2").value);
   }
+
+  //for me :
+  //slice - აბრუნებს სტრინგის ნაწილს.
+  //toUpperCase - გადაყვანს სტრინგს დიდ ასოებში.
+  //getElementById - აბრუნებს ელემენტს იდით.
+  //value - აბრუნებს ელემენტის მნიშვნელობას.
+  //parseFloat - გადაყვანს სტრინგს წილადად.
+  //length - აბრუნებს სტრინგის სიგრძეს.

@@ -82,3 +82,15 @@ function loopExample() {
     if (i % 2 === 0) console.log(i);
   }
 }
+
+//for me :
+//isTriangle - აბრუნებს თუ არის თრიანგლი.
+//checkEmail - აბრუნებს თუ არის ელ-ფოსტა სწორი.
+//compareNumbers - აბრუნებს რიცხვების შედარებას.
+//financialPlan - აბრუნებს ფინანსურ გეგმას.
+//switchExample - აბრუნებს სვიჩის შედეგს.
+//checkSuccess - აბრუნებს შედეგს.
+//sumPrimes - აბრუნებს პრიმ რიცხვების ჯამს.
+//loopExample - აბრუნებს ციკლის შედ
+//ეგებს.
+//Math.sqrt - აბრუნებს კვადრატულ ფუნქციას.

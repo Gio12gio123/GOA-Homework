@@ -48,3 +48,15 @@ user1.changePassword("newpassword456");
 
 console.log(user1.getDetails());
 console.log(user2.getDetails());
+
+
+// for me :
+// function - ფუნქციას შექმნის.
+// this - აბრუნებს მითითებულ ობიექტს.
+// new - შექმნის ახალ ინსტანციას.
+// return - აბრუნებს შედეგს.
+// console.log - აბრუნებს შედეგს.
+// . - აბრუნებს შედეგს.
+// , - აბრუნებს შედეგს.
+// () - აბრუნებს შედეგს.
+// {} - აბრუნებს შედეგს.

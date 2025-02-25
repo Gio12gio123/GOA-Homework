@@ -108,3 +108,18 @@ let car3 = new Car("Ford", "Mustang", 2022);
 console.log(car1.getCarInfo());
 console.log(car2.getCarInfo());
 console.log(car3.getCarInfo());
+
+
+//for me :
+//object - აბრუნებს ობიექტს.
+//function - აბრუნებს ფუნქციას.
+//this - აბრუნებს ეს.
+//console.log - აბრუნებს შედეგს.
+//new - აბრუნებს ახალ ელემენტს.
+//prototype - აბრუნებს პროტოტიპს.
+//let - აბრუნებს ცვლადს.
+//for - ციკლის შექმნა.
+//in - აბრუნებს შედეგს.
+//for in - ციკლის შექმნა.
+//for of - ციკლის შექმნა.
+//continue - გადაადგილებს ციკლს.

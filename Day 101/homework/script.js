@@ -85,3 +85,17 @@ const obj7 = { city: "Tbilisi" };
 const obj8 = { population: 1200000 };
 const mergedObj = Object.assign({}, obj6, obj7, obj8);
 console.log(mergedObj);
+
+
+//for me :
+
+//Object.entries - აბრუნებს მასივს, რომელშიც შეიცავს შესაბამისი ობიექტის ყველა კლავიატურულ და მნიშვნელობას.
+//in - აბრუნებს true-ს, თუ მითითებული პროპერტი არის ობიექტში, და false-ს, თუ არ არის.
+//Object.freeze - გაუქმებს ობიექტის შეცვლას.
+//Object.isFrozen - აბრუნებს true-ს, თუ ობიექტი გაყიდულია და false-ს, თუ არა.
+//Object.is - აბრუნებს true-ს, თუ ორი პარამეტრი ტოლია და false-ს, თუ არა.
+//Object.preventExtensions - აუქმებს ობიექტის შემატების შესაძლებლობას.
+//Object.isExtensible - აბრუნებს true-ს, თუ ობიექტი შეიცავს შესაძლებლობას დამატებისას და false-ს, თუ არა.
+//Object.assign - აბრუნებს ახალ ობიექტს, რომელშიც შეიცავს ყველა მითითებულ პარამეტრს.
+//spread operator - ახალ პროპერტის დამატება ობიექტში.
+//Object - არის ყველა ობიექტის მშობლიური კლასი.

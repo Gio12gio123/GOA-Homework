@@ -1,103 +1,118 @@
-
-
-public class DayOfWeek {
-    public static void main(String[] args) {
-        int day = 3; // Change this value to test different days
-
-        if (day == 1) {
-            System.out.println("ორშაბათი");
-        } else if (day == 2) {
-            System.out.println("სამშაბათი");
-        } else if (day == 3) {
-            System.out.println("ოთხშაბათი");
-        } else if (day == 4) {
-            System.out.println("ხუთშაბათი");
-        } else if (day == 5) {
-            System.out.println("პარასკევი");
-        } else if (day == 6) {
-            System.out.println("შაბათი");
-        } else if (day == 7) {
-            System.out.println("კვირა");
-        } else {
-            System.out.println("არასწორი დღე");
-        }
-    }
-}
-
-
-
- class EvenOdd {
-    static void main(String[] args) {
-       int number = 10; // Change this value to test different numbers
-       if (number % 2 == 0) {
-           System.out.println(number + " is an even number.");
-       } else {
-           System.out.println(number + " is an odd number.");
-       }
-   
-
-}
-
 import java.util.Scanner;
 
-public class WeatherForecast {
-    public static void main(String[] args) {
+public class Main {
+
+    public static void dayOfWeek() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("შეიყვანეთ რიცხვი (1-4): ");
+        System.out.print("Enter a number (1-7): ");
+        int day = scanner.nextInt();
+
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid day");
+        }
+    }
+
+    public static void evenOdd() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        String result = (number % 2 == 0) ? "Even" : "Odd";
+        System.out.println(result);
+    }
+
+    public static void weatherForecast() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number (1-4): ");
         int weather = scanner.nextInt();
 
         switch (weather) {
             case 1:
-                System.out.println("მზიანი");
+                System.out.println("Sunny");
                 break;
             case 2:
-                System.out.println("წვიმიანი");
+                System.out.println("Rainy");
                 break;
             case 3:
-                System.out.println("მოღრუბლული");
+                System.out.println("Cloudy");
                 break;
             case 4:
-                System.out.println("ქარიანი");
+                System.out.println("Windy");
                 break;
             default:
-                System.out.println("არ არის დადგენილი");
+                System.out.println("Not defined");
         }
     }
-}
 
-import java.util.Scanner;
-
-public class MonthAndHalf {
-    public static void main(String[] args) {
+    public static void monthAndHalf() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("შეიყვანეთ რიცხვი (1-12): ");
+        System.out.print("Enter a number (1-12): ");
         int month = scanner.nextInt();
 
-      
         String monthName = "";
         switch (month) {
-            case 1: monthName = "იანვარი"; break;
-            case 2: monthName = "თებერვალი"; break;
-            case 3: monthName = "მარტი"; break;
-            case 4: monthName = "აპრილი"; break;
-            case 5: monthName = "მაისი"; break;
-            case 6: monthName = "ივნისი"; break;
-            case 7: monthName = "ივლისი"; break;
-            case 8: monthName = "აგვისტო"; break;
-            case 9: monthName = "სექტემბერი"; break;
-            case 10: monthName = "ოქტომბერი"; break;
-            case 11: monthName = "ნოემბერი"; break;
-            case 12: monthName = "დეკემბერი"; break;
-            default: monthName = "არასწორი თვე"; break;
+            case 1: monthName = "January"; break;
+            case 2: monthName = "February"; break;
+            case 3: monthName = "March"; break;
+            case 4: monthName = "April"; break;
+            case 5: monthName = "May"; break;
+            case 6: monthName = "June"; break;
+            case 7: monthName = "July"; break;
+            case 8: monthName = "August"; break;
+            case 9: monthName = "September"; break;
+            case 10: monthName = "October"; break;
+            case 11: monthName = "November"; break;
+            case 12: monthName = "December"; break;
+            default: monthName = "Invalid month"; break;
         }
 
-        String halfOfYear = (month >= 1 && month <= 6) ? "პირველი ნახევარი" : 
-                            (month >= 7 && month <= 12) ? "მეორე ნახევარი" : "არასწორი თვე";
+        String halfOfYear = (month >= 1 && month <= 6) ? "First half" : "Second half";
 
-        System.out.println("თვე: " + monthName);
-        System.out.println("მეორე ან პირველი ნახევარი: " + halfOfYear);
+        System.out.println("Month: " + monthName);
+        System.out.println("This month is in the: " + halfOfYear);
+    }
+
+    public static void main(String[] args) {
+        dayOfWeek();
+        evenOdd();
+        weatherForecast();
+        monthAndHalf();
     }
 }
+//for me :
+//Scanner - აბრუნებს სკანერს.
+//nextInt - აბრუნებს მთელ რიცხვს.
+//print - აბრუნებს ტექსტს.
+//println - აბრუნებს ტექსტს ახალ ხაზზე.
+//switch - შეაფასებს შეყვანილ პარამეტრს და აბრუნებს შედეგს.
+//case - შეაფასებს შეყვანილ პარამეტრს და აბრუნებს შედეგს.
+//default - შეყვანილი პარამეტრის შეფასებული შედეგის გარეშე გამოსაყვებად.
+//? - შეაფასებს შეყვანილ პარამეტრს და აბრუნებს შედეგს.
+//: - შეყვანილი პარამეტრის შეფასებული შედეგის გარეშე გამოსაყვებად.
+// Description: Write a function that takes an array as an argument and returns the number of elements in that array
+
 
 
 

@@ -38,3 +38,12 @@ function gradeSystem(score) {
 
 let score = parseInt(prompt("Enter your score (0-100):"));
 console.log(gradeSystem(score));
+
+
+//for me :
+//parseInt - გადაყვანს სტრინგს რიცხვად.
+//parseFloat - გადაყვანს სტრინგს წილადად.
+//prompt - აბრუნებს მომხმარებლის შეყვანილ ინფორმაციას.
+//if - შეაფასებს შეყვანილ პარამეტრს და აბრუნებს შედეგს.
+//else - შეყვანილი პარამეტრის შეფასებული შედეგის გარეშე გამოსაყვებად.
+//return - აბრუნებს შედეგს.

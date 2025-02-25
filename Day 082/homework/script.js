@@ -36,3 +36,10 @@ console.log("Average:", average);
 alert("Sum: " + sum);
 alert("Average: " + average);
 
+
+//for me :
+//parseInt - გადაყვანს სტრინგს რიცხვად.
+//prompt - აბრუნებს მომხმარებლის შეყვანილ ინფორმაციას.
+//console.log - აბრუნებს შედეგს.
+//alert - აჩვენებს შეტყობინებას.
+//toUpperCase - გადაყვანს სტრინგს დიდ ასოებში.
